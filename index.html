@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio do Herói</title>
+    <link rel="stylesheet" href="./assets/Styles/styles.css">
+    <link rel="shortcut icon" href="./assets/img/favicon1.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="containner">
+        <div class="containner_left">
+            <img src="./assets/img/hero-gamer.png" alt="Herói Gamer">
+        </div>
+        <div class="containner_rigth">
+            <img id="brasao" src="assets/img/brazoes/desconhecido.svg" alt="Brasão do Herói" class="brasao-img">
+            <h1>Desafio do Herói</h1>
+            <p>Informe o nome e o XP abaixo para verificar o nível do seu herói!</p>
+            <input class="input" id="nome" placeholder="Nome do Herói...">
+            <input class="input" id="xp" placeholder="XP do herói...">
+            <button class="button" onclick="classificarHeroi()">Descubra o nível do seu Herói!</button>
+            <p id="resultado"></p>
+        </div>
+    </div>
+
+    <script src="./assets/Scripts/script.js"></script>
+</body>
+
+</html>

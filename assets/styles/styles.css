@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0E0433;
+  font-family: 'Press Start 2P', cursive;
+  color: #00f2fe;
+  height: 100vh;
+  overflow: hidden;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LINKS SUPERIORES */
+nav {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+
+/* CONTAINER PRINCIPAL */
+.containner {
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* LADO ESQUERDO COM IMAGEM */
+.containner_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containner_left img {
+  width: 300px;
+  height: auto;
+}
+
+/* QUADRADO DA DIREITA */
+.containner_rigth {
+  width: 440px;
+  padding: 20px 20px;
+  background-color: #05042F;
+  border: 4px solid #F2275D;
+  border-radius: 14px;
+  box-shadow: 0 0 10px #f2275d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* TÍTULO */
+h1 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  color: #00f2fe;
+  text-shadow: 0 0 6px #00f2fe;
+}
+
+/* DESCRIÇÃO */
+p {
+  font-size: 13px;
+  margin-bottom: 20px;
+  color: #e0e0e0;
+  line-height: 1.5;
+}
+
+/* INPUTS */
+.input {
+  padding: 14px;
+  font-size: 12px;
+  margin-bottom: 18px;
+  border: 2px solid #00f2fe;
+  border-radius: 6px;
+  background-color: #05042F;
+  color: #e0e0e0;
+  font-family: 'Press Start 2P', cursive;
+  width: 100%;
+  box-shadow: 0 0 10px #00f2fe inset;
+}
+
+/* BOTÃO */
+.button {
+  padding: 14px;
+  font-size: 12px;
+  background-color: #05042F;
+  color: #F2275D;
+  border: 2px solid #F2275D;
+  border-radius: 6px;
+  font-family: 'Press Start 2P', cursive;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 0 10px #F2275D;
+}
+
+.button:hover {
+  background-color: #F2275D;
+  color: #fff;
+  box-shadow: 0 0 25px #f2275d;
+}
+
+/* RESULTADO */
+#resultado {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #00f2fe;
+  text-shadow: 0 0 6px #00f2fe;
+}
+
+.brasao-img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}

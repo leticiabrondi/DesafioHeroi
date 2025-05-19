@@ -1,0 +1,7 @@
+<svg width="100" height="100" viewBox="0 0 32 32" shape-rendering="crispEdges" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" fill="#5c3a1a"/>
+  <rect x="9" y="14" width="14" height="4" fill="#bb7a3a"/>
+  <rect x="10" y="13" width="2" height="3" fill="#d99852"/>
+  <rect x="20" y="13" width="2" height="3" fill="#d99852"/>
+  <rect x="14" y="16" width="4" height="2" fill="#f4b363"/>
+</svg>
